@@ -1,0 +1,74 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TP N°1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <!-- Botón Ejercicio 1 -->
+    <Button
+        android:id="@+id/btn_ejercicio1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJERCICIO 1"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón Ejercicio 2 -->
+    <Button
+        android:id="@+id/btn_ejercicio2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJERCICIO 2"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TextView Integrantes -->
+    <TextView
+        android:id="@+id/tv_integrantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INTEGRANTES"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Lista de Integrantes -->
+    <TextView
+        android:id="@+id/tv_integrante1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mariano Benitez Grion"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_integrante2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jose Ignacio Gauna"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_integrante3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alejandro Gazzo"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_integrante4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pablo Ernesto Gimenez"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
